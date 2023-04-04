@@ -1,6 +1,6 @@
 # Knapsack Optimizer Service
 
-Author: Devendra Jha,  | *devkjha19@gmail.com*
+                                                                                                                        Author: Devendra Jha,  | *devkjha19@gmail.com*
 
 
 ## Introduction ##
