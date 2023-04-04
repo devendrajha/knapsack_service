@@ -17,7 +17,7 @@ The running time of this algorithm can be written as the following recurrence:-
 T(N) = 2T(N-1) + O(1), which is simplified to O(2^N). This is also evident from the recursion tree, which has 2^N leaves.
 problem
 
-Optimize Maximum is represented by its *class* in `/knapsack_service/app/service`. All solvers are inherited from the base *class* `IKnapsackOptimizer`. This class defines a common interface for all solvers a facilitates following:
+Optimize Maximum is represented by its *class* in `/knapsack_service/app/service`. Solver is inherited from the base *class* `IKnapsackOptimizer`. This class defines a common interface for all solvers a facilitates following:
 
 
 
