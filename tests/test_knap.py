@@ -40,3 +40,12 @@ def test_knap_failure_test_3():
     assert response.status_code == 404
     assert response.data.decode('utf-8') == "Please provide integer value in input data"
 
+def test_knap_failure_test_4():
+    payload = json.dumps({
+        "values": [60, 100, 120],
+        "weights": [10, 20, 30],
+        "capacities": 50
+        })
+    response = app.test_client().post('/knapsack', data=payload)
+    assert response.status_code == 200
+    assert response.data.decode('utf-8') == "Content-Type not supported!"

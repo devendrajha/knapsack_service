@@ -52,6 +52,6 @@ pytest tests/
 
 
 ### Run Pylint locally
-````
+```
 find . -type f -name "*.py" | xargs pylint --fail-under=8 || pylint-exit $?
 ```
